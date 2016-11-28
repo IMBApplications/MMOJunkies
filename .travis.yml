@@ -6,7 +6,7 @@ install:
   - pip install -r services/dist/requirements.txt
 #  - pip install coveralls
 script:
-  - python -m py_compile mmojunkies.py
+  - python -m py_compile services/mmojunkies.py
 #  - coverage run --source=services/mmojunkies -m py_compile mmojunkies.py
 
 notifications:
