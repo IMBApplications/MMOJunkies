@@ -1,0 +1,22 @@
+language: python
+python:
+  - 2.7
+  - 3.4
+install:
+  - pip install -r services/dist/requirements.txt
+#  - pip install coveralls
+script:
+  - python -m py_compile mmojunkies.py
+#  - coverage run --source=services/mmojunkies -m py_compile mmojunkies.py
+
+notifications:
+  email: false
+  webhooks:
+    urls:
+      - https://webhooks.gitter.im/e/493ef9592b0fb6507aba
+    on_success: always  # options: [always|never|change] default: always
+    on_failure: always  # options: [always|never|change] default: always
+    on_start: false     # default: false
+
+#after_success:
+#  coveralls

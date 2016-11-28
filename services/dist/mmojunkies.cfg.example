@@ -1,0 +1,13 @@
+# base settings
+DEBUG = True
+APPSECRET = 'some key'
+COMPRESS_DEBUG = True
+COMPRESS_MIMETYPES = ['text/html', 'text/css', 'text/xml', 'application/json', 'application/javascript', 'text/javascript']
+
+# email
+ADMINS = ['']
+EMAILSERVER = "127.0.0.1"
+EMAILFROM = "yourname@example.com"
+EMAILREPLYTO = ""
+EMAILLOGIN = ""
+EMAILPASSWORD = ""

@@ -6,6 +6,9 @@ __pycache__/
 # IDE exclusion
 .idea/
 
+# Logfile exclusions
+log/*.log
+
 # C extensions
 *.so
 
@@ -14,7 +17,6 @@ __pycache__/
 env/
 build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
@@ -90,3 +92,4 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
