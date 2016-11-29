@@ -2,11 +2,11 @@
 <module type="PYTHON_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Python 2.7.9 virtualenv at services/venv" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PackageRequirementsSettings">
-    <option name="requirementsPath" value="D:\dev\PycharmProjects\MMOJunkies\services\dist\requirements.txt" />
+    <option name="requirementsPath" value="$MODULE_DIR$/services/dist/requirements.txt" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />
